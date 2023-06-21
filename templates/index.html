@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>登录/注册</title>
+</head>
+<body>
+    <h1>登录</h1>
+    <form action="/login" method="POST">
+        <label for="login-username">用户名:</label>
+        <input type="text" id="login-username" name="username" placeholder="请输入用户名" required><br>
+        <label for="login-password">密码:</label>
+        <input type="password" id="login-password" name="password" placeholder="请输入密码" required><br>
+        <input type="submit" value="登录">
+    </form>
+
+    <h1>注册</h1>
+    <form action="/register" method="POST">
+        <label for="register-username">用户名:</label>
+        <input type="text" id="register-username" name="username" placeholder="请输入用户名" required><br>
+        <label for="register-password">密码:</label>
+        <input type="password" id="register-password" name="password" placeholder="请输入密码" required><br>
+        <input type="submit" value="注册">
+    </form>
+</body>
+</html>
