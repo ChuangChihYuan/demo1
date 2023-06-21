@@ -36,9 +36,9 @@ def login():
 
     # 检查用户名和密码是否匹配
     if username in user_database and user_database[username] == hashed_password:
-        return "登录成功！!!"
+        return "登录成功！!!@Q@"
     else:
-        return "登录失败！!!"
+        return "登录失败！!!@Q@"
 
 
 if __name__ == '__main__':
